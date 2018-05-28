@@ -1,0 +1,76 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\modules.xml
+* .idea\todo.iml
+* .idea\workspace.xml
+* IconMaster.xcf
+* alarm.pov
+* doc\
+* doc\Alarm_dialog.png
+* doc\Android_application_info.png
+* doc\Android_home_screen.png
+* doc\Android_settings.png
+* doc\Building_ToDo.texinfo
+* doc\Calendar_picker.png
+* doc\Change_repeat-day-after.png
+* doc\Change_repeat-month-day.png
+* doc\Change_repeat-semi-date.png
+* doc\Change_repeat-semi-day.png
+* doc\Change_repeat-week-fixed.png
+* doc\Custom_category_list.png
+* doc\Default_category_list.png
+* doc\Default_due_dates.png
+* doc\Default_repeats.png
+* doc\Edit_categories.png
+* doc\Export_exclude_private.png
+* doc\Hide_dialog.png
+* doc\Import_activity.png
+* doc\Listed_due_dates.png
+* doc\Locked_record.png
+* doc\New_item.png
+* doc\New_note.png
+* doc\Settings.png
+* doc\Simple_list.png
+* doc\Single_list.png
+* doc\Sort_options.png
+* doc\ToDo.texinfo
+* doc\bcprov-LICENSE.html
+* doc\ccpl-3.0.txt
+* doc\gpl-3.0.txt
+* postit.pov
+* repeat.pov
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\xmission\trevin\android\.idea\android.iml => app\src\main\resources\com\xmission\trevin\android\.idea\android.iml
+* src\com\xmission\trevin\android\.idea\modules.xml => app\src\main\resources\com\xmission\trevin\android\.idea\modules.xml
+* src\com\xmission\trevin\android\.idea\workspace.xml => app\src\main\resources\com\xmission\trevin\android\.idea\workspace.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

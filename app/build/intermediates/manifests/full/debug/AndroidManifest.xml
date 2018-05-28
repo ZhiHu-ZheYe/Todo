@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xmission.trevin.android.todo"
+    android:versionCode="3"
+    android:versionName="1.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Light.WithActionBar" >
+        <activity
+            android:name="com.xmission.trevin.android.todo.ToDoListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmission.trevin.todo" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.xmission.trevin.android.todo.ToDoProvider"
+            android:authorities="com.xmission.trevin.android.todo.ToDo" >
+        </provider>
+
+        <activity
+            android:name="com.xmission.trevin.android.todo.CategoryListActivity"
+            android:launchMode="standard" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmission.trevin.todo.category" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xmission.trevin.android.todo.ExportActivity"
+            android:launchMode="standard" >
+            <intent-filter>
+                <action android:name="android.settings.SYNC_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xmission.trevin.android.todo.ImportActivity"
+            android:launchMode="standard" >
+            <intent-filter>
+                <action android:name="android.settings.SYNC_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xmission.trevin.android.todo.PreferencesActivity" >
+            <intent-filter>
+                <action android:name="android.settings.APPLICATION_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xmission.trevin.android.todo.ToDoDetailsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmission.trevin.todo" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xmission.trevin.android.todo.ToDoNoteActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmission.trevin.todo" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.xmission.trevin.android.todo.PasswordChangeService"
+            android:exported="false"
+            android:label="@string/service_name_password_change" >
+        </service>
+        <service
+            android:name="com.xmission.trevin.android.todo.AlarmService"
+            android:exported="false"
+            android:label="@string/service_name_alarm" >
+        </service>
+        <service
+            android:name="com.xmission.trevin.android.todo.PalmImporterService"
+            android:exported="false"
+            android:label="@string/service_name_import_palm" >
+        </service>
+        <service
+            android:name="com.xmission.trevin.android.todo.XMLImporterService"
+            android:exported="false"
+            android:label="@string/service_name_import_xml" >
+        </service>
+        <service
+            android:name="com.xmission.trevin.android.todo.XMLExporterService"
+            android:exported="false"
+            android:label="@string/service_name_export" >
+        </service>
+
+        <receiver android:name="com.xmission.trevin.android.todo.AlarmInitReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

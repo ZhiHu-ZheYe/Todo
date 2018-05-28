@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:3:7-49
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:5:7-34
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:11:5-107:19
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:12:6-38
+	android:icon
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:11:18-47
+	android:allowBackup
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:14:6-32
+	android:theme
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:13:6-54
+activity#com.xmission.trevin.android.todo.ToDoListActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:15:9-25:13
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:16:19-51
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:15:19-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:19:27-74
+intent-filter#android.intent.action.EDIT
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:21:13-24:22
+action#android.intent.action.EDIT
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:22:10-61
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:22:18-59
+data
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:23:3-77
+	android:mimeType
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:23:9-75
+provider#com.xmission.trevin.android.todo.ToDoProvider
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:27:2-29:13
+	android:authorities
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:28:5-64
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:27:12-39
+activity#com.xmission.trevin.android.todo.CategoryListActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:31:2-37:13
+	android:launchMode
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:32:5-34
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:31:12-47
+activity#com.xmission.trevin.android.todo.ExportActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:39:2-44:13
+	android:launchMode
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:40:5-34
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:39:12-41
+intent-filter#android.settings.SYNC_SETTINGS
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:41:6-43:22
+action#android.settings.SYNC_SETTINGS
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:42:3-58
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:42:11-56
+activity#com.xmission.trevin.android.todo.ImportActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:46:2-51:13
+	android:launchMode
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:47:5-34
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:46:12-41
+activity#com.xmission.trevin.android.todo.PreferencesActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:53:2-57:13
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:53:12-46
+intent-filter#android.settings.APPLICATION_SETTINGS
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:54:6-56:22
+action#android.settings.APPLICATION_SETTINGS
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:55:3-65
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:55:11-63
+activity#com.xmission.trevin.android.todo.ToDoDetailsActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:59:2-64:13
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:59:12-46
+activity#com.xmission.trevin.android.todo.ToDoNoteActivity
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:66:2-71:13
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:66:12-43
+service#com.xmission.trevin.android.todo.PasswordChangeService
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:73:2-76:12
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:74:4-56
+	android:exported
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:73:11-35
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:75:4-41
+service#com.xmission.trevin.android.todo.AlarmService
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:78:2-81:12
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:79:4-46
+	android:exported
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:78:11-35
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:80:4-32
+service#com.xmission.trevin.android.todo.PalmImporterService
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:83:2-86:12
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:84:4-52
+	android:exported
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:83:11-35
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:85:4-39
+service#com.xmission.trevin.android.todo.XMLImporterService
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:88:2-91:12
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:89:4-51
+	android:exported
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:88:11-35
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:90:4-38
+service#com.xmission.trevin.android.todo.XMLExporterService
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:93:2-96:12
+	android:label
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:94:4-47
+	android:exported
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:93:11-35
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:95:4-38
+receiver#com.xmission.trevin.android.todo.AlarmInitReceiver
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:98:2-105:13
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:98:12-45
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.DATE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:99:6-104:22
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:100:3-64
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:100:11-62
+action#android.intent.action.DATE_CHANGED
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:101:3-62
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:101:11-60
+action#android.intent.action.TIME_SET
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:102:3-58
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:102:11-56
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:103:3-66
+	android:name
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:103:11-64
+uses-sdk
+ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:5-110:39
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:5-110:39
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:5-110:39
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:5-110:39
+INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:5-110:39
+	android:targetSdkVersion
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:110:8-37
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml:109:15-40
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml
+		INJECTED from E:\chromedownload\todo_change\app\src\main\AndroidManifest.xml

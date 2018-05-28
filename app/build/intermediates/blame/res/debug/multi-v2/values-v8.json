@@ -1,0 +1,27 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\chromedownload\\todo_change\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v8\\values-v8.xml",
+            "map": [
+                {
+                    "source": "E:\\chromedownload\\todo_change\\app\\src\\main\\res\\values-v8\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "38",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "81",
+                        "endOffsets": "132"
+                    }
+                }
+            ]
+        }
+    ]
+}
